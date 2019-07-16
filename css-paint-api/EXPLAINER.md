@@ -138,7 +138,7 @@ class RectPainter {
   
   paint(ctx, size, style) {
     // Change the fill color.
-    ctx.fillStyle = style.get('--circle-color');
+    ctx.fillStyle = style.get('--rect-color');
 
     // Draw the solid rect.
     ctx.fillRect(0, 0, size.width, size.height);
